@@ -13,33 +13,32 @@ void main(void)
 {
   int FirstNumber = 0,
       SecondNumber = 0,
-		  TheAnswer = 0;
-
+      TheAnswer = 0;
 
   // Ask for a number
   cout << "Enter an integer: ";
-	cin >> FirstNumber;
+  cin >> FirstNumber;
 
-	// Ask for a number
+  // Ask for a number
   cout << "Enter an integer: ";
-	cin >> SecondNumber;
+  cin >> SecondNumber;
 
-	// Ask the question
-	cout << "\nWhat does "
+  // Ask the question
+  cout << "\nWhat does "
        << FirstNumber 
        << " + "
        << SecondNumber
        << " equal? ";
 
-	cin >> TheAnswer;
+  cin >> TheAnswer;
 
-	// Test the answer, and choose a message
-	if (FirstNumber + SecondNumber == TheAnswer)
-	{
-		cout << "\nHey, you got it right! \n";
-	}
-	else
-	{
+  // Test the answer, and choose a message
+  if (FirstNumber + SecondNumber == TheAnswer)
+  {
+    cout << "\nHey, you got it right! \n";
+  }
+  else
+  {
     cout << "\nBoy did you get it wrong! \n";
-	}
+  }
 }
