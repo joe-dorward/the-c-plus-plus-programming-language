@@ -1,4 +1,4 @@
-//  Program Arithmetic1.cpp
+//  Program arithmetic1.cpp
 //  Written by: Joe Dorward
 //  Date: 07/09/01
 
