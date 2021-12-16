@@ -49,4 +49,3 @@ void main(void)
        << InputFloat 
        << "\n\n";
 }
-
