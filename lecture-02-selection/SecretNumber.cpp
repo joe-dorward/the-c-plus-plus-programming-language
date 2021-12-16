@@ -12,7 +12,6 @@ void main(void)
 
   int EnteredNumber = 0;
 
-
   cout << "\n ** PIN REQUIRED TO ACCESS THIS MACHINE ** \n";
 
   cout << "\n Enter your secret number: ";
