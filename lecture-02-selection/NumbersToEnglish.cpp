@@ -13,18 +13,17 @@ void main(void)
 
   cout << "Enter a whole-number (0 - 9): ";
   cin >> TheNumber;
-
  
   if (TheNumber == 0)
-	{
+  {
     cout << "\n Zero. \n";
-	}
+  }
   else if (TheNumber == 1)
-	{
+  {
     cout << "\n One. \n";
-	}
+  }
   else if (TheNumber == 2)
-	{
+  {
     cout << "\n Two. \n";
-	}
+  }
 }
