@@ -28,4 +28,3 @@ void main(void)
        << OutputMinutes 
        << "\n\n";
 }
-
